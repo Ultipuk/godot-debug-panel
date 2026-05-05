@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://clnf8fjxvcq0v"]
+
+[ext_resource type="Script" uid="uid://dlw0my6l7vwy" path="res://data/demo.gd" id="1_aaivb"]
+
+[node name="Demo" type="Control" unique_id=467629439]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_aaivb")
+
+[node name="Info" type="RichTextLabel" parent="." unique_id=1804479690]
+custom_minimum_size = Vector2(400, 100)
+layout_mode = 1
+anchors_preset = 12
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+bbcode_enabled = true
+text = "Press [b]Space[/b] to toggle junk rows"
+horizontal_alignment = 1
+vertical_alignment = 1
