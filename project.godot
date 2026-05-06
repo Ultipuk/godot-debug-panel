@@ -14,7 +14,9 @@ compatibility/default_parent_skeleton_in_mesh_instance_3d=true
 
 [application]
 
-config/name="Dual Kawase Blur"
+config/name="Debug Panel"
+config/description="Demo project for godot-debug-panel addon."
+config/version="0.1.1"
 run/main_scene="uid://clnf8fjxvcq0v"
 config/features=PackedStringArray("4.6", "Forward Plus")
 config/icon="res://icon.svg"
@@ -29,4 +31,4 @@ window/size/mode=2
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot-debug-panel/plugin.cfg", "res://addons/godot-dual-kawase-blur-compositor-effect/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot-debug-panel/plugin.cfg")
