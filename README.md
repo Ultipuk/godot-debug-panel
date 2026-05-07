@@ -1,8 +1,6 @@
-
-
 # Godot Debug Panel
 
-It's a simple debug panel. Enable `Dp` plugin to use it.
+It's a simple debug panel. You can download it [from Godot Asset Library](https://godotengine.org/asset-library/asset/5128). Enable `Dp` plugin to use it.
 
 Here's how you can use it:
 
